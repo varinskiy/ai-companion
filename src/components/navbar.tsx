@@ -6,7 +6,7 @@ import { Poppins } from 'next/font/google'
 import Link from 'next/link'
 
 import { ModeToggle } from '@/components/mode-toggle'
-import { MobileSidebar } from '@/components/modile-sidebar'
+import { MobileSidebar } from '@/components/mobile-sidebar'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 

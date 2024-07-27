@@ -24,6 +24,7 @@ export function ImageUpload({ value, onChange, disabled }: ImageUploadProps) {
 	return (
 		<div className="space-y-4 w-full flex flex-col justify-center items-center">
 			<CldUploadButton
+				onUpload={(result: any) => onChange(result.info.secure_url)}
 				options={{
 					maxFiles: 1,
 				}}
@@ -34,7 +35,7 @@ export function ImageUpload({ value, onChange, disabled }: ImageUploadProps) {
 						<Image
 							fill
 							alt="Upload"
-							src="/placeholder.png"
+							src={value || '/placeholder.png'}
 							className="rounded-lg object-cover"
 						/>
 					</div>

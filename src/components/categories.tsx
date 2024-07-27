@@ -57,6 +57,7 @@ export const Categories = ({ data }: CategoriesProps) => {
 			</button>
 			{data.map((item) => (
 				<button
+					key={item.id}
 					onClick={() => onClick(item.id)}
 					id={item.id}
 					className={cn(
