@@ -10,6 +10,9 @@ CLERK_SECRET_KEY=
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
+DATABASE_URL
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
+
 This was inserted by `prisma init`:
 
 Environment variables declared in this file are automatically made available to Prisma.
